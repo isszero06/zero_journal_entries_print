@@ -17,7 +17,7 @@
     'data': [
         'report/report.xml'
     ],
-    "price": 1.00,
+    "price": 0.00,
     "currency": 'EUR',
     'license': 'OPL-1',
     'installable': True,
