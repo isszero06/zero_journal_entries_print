@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0+e\n"
+"Project-Id-Version: Odoo Server 15.0+e-20230519\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-12 04:13+0000\n"
-"PO-Revision-Date: 2023-06-12 04:13+0000\n"
+"POT-Creation-Date: 2023-06-17 15:59+0000\n"
+"PO-Revision-Date: 2023-06-17 15:59+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,54 +21,20 @@ msgid "(object._get_report_je_filename())"
 msgstr ""
 
 #. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
-msgstr ""
-
-#. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Fiscal number\"/>"
-msgstr ""
-
-#. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid "<i class=\"fa fa-globe\" role=\"img\" aria-label=\"Website\" title=\"Website\"/>"
-msgstr ""
-
-#. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/>"
-msgstr ""
-
-#. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
+#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
 msgid ""
-"<span class=\"text-right arabic\" style=\"padding-right:-6px;\">رقم السجل "
-"التجاري</span>‬"
+"<span style=\";color:#4A1031\" class=\"o_bold\">\n"
+"                                  <strong>Total:</strong>\n"
+"                                </span>"
 msgstr ""
-
-#. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid ""
-"<span class=\"text-right arabic\" style=\"padding-right:-6px;\">ضريبة القيمة\n"
-"                        المضافة</span>‬"
-msgstr ""
+"<span style=\";color:#4A1031\" class=\"o_bold\">\n"
+"                                  <strong>الاجمالي:</strong>\n"
+"                                </span>"
 
 #. module: zero_journal_entries_print
 #: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
 msgid "<span>Journal Entry</span>"
 msgstr "قيد اليومية"
-
-#. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
-msgid ""
-"<strong>\n"
-"                                            <span style=\";color:#630000\">Total</span>\n"
-"                                        </strong>"
-msgstr ""
-"<strong>\n"
-"                                            <span style=\";color:#630000\">الاجمالي</span>\n"
-"                                        </strong>"
 
 #. module: zero_journal_entries_print
 #: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
@@ -92,6 +58,11 @@ msgstr "البيان المرجعي"
 
 #. module: zero_journal_entries_print
 #: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
+msgid "<strong>Status:</strong>"
+msgstr ""
+
+#. module: zero_journal_entries_print
+#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
 msgid "Account"
 msgstr "الحساب"
 
@@ -99,6 +70,21 @@ msgstr "الحساب"
 #: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
 msgid "Analytic"
 msgstr "الحساب التحليلي"
+
+#. module: zero_journal_entries_print
+#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
+msgid "Approved By"
+msgstr "اعتماد"
+
+#. module: zero_journal_entries_print
+#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
+msgid "Checked By"
+msgstr "مراجعة"
+
+#. module: zero_journal_entries_print
+#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
+msgid "Created By:"
+msgstr "أنشئ بواسطة"
 
 #. module: zero_journal_entries_print
 #: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
@@ -121,24 +107,11 @@ msgid "Label"
 msgstr "البيان"
 
 #. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid "Logo"
-msgstr ""
-
-#. module: zero_journal_entries_print
-#: code:addons/zero_journal_entries_print/models/journal_entries.py:0
+#. odoo-python
+#: code:addons/zero_journal_entries_print/models/move.py:0
 #, python-format
 msgid "Only Journal Entries could be printed."
 msgstr "يمكن طباعة قيود اليومية فقط"
-
-#. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid ""
-"Page:\n"
-"                    <span class=\"page\"/>\n"
-"                    of\n"
-"                    <span class=\"topage\"/>"
-msgstr ""
 
 #. module: zero_journal_entries_print
 #: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
@@ -151,11 +124,6 @@ msgid "Print Journal Entry"
 msgstr "طباعة القيد"
 
 #. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid "‫‪ <span class=\"text-right\" style=\"padding-left:5px;\">VAT‬‬ No.:</span>"
-msgstr ""
-
-#. module: zero_journal_entries_print
-#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.external_layout
-msgid "‫‪<span class=\"text-right\" style=\"padding-left:5px;\"/>CR No"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:zero_journal_entries_print.zero_journal_entries_print
+msgid "Taxes"
+msgstr "الضرائب"
