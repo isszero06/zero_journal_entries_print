@@ -1,7 +1,7 @@
 # -*- encoding: UTF-8 -*-
 {
     'name': 'Print Journal Entries (PDF)',
-    'version': '5.1.0',
+    'version': '6.1.0',
         "author": 'Zero Systems',
         "company": 'Zero for Information Systems',
          "website": "https://erpzero.com",
@@ -16,7 +16,7 @@
     'data': [
         'report/report.xml'
     ],
-    "price": 15.00,
+    "price": 10.00,
     "currency": 'EUR',
     'license': 'OPL-1',
     'installable': True,
