@@ -67,16 +67,8 @@
                                             <td><span style=";color:#630000" t-field="line.account_id.name"/></td>
                                             <td><span style=";color:#630000" t-field="line.partner_id.name"/></td>
                                             <td><span style=";color:#630000" t-field="line.name"/></td>
-                                            <td>
-                                                <span style=";color:#630000">
-                                                    <div t-foreach="line.analytic_distribution" t-as="distribution">
-                                                          <t t-esc="line.env['account.analytic.account'].browse(int(distribution))[0].name"/>: <t t-esc="line.analytic_distribution.get(distribution)"/>
-                                                    </div>
-                                                </span>
-                                            </td>
-                                            <td>
-                                                <span style=";color:#630000" t-field="line.tax_ids" />
-                                            </td>
+                                            <td><span style=";color:#630000" t-field="line.analytic_account_id.name"/></td>
+                                            <td><span style=";color:#630000" t-field="line.tax_ids"/></td>
                                             <td ><span style=";color:#630000" t-field="line.debit"/></td>
                                             <td ><span style=";color:#630000" t-field="line.credit"/></td>
                                         </tr>
