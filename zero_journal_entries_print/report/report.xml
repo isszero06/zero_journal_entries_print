@@ -41,9 +41,9 @@
                             <div class="row">
                               <div class="col-3">
                                 <span style=";color:#4A1031" class="o_bold">
-                                  <strong>Total in Currency:</strong>
+                                  <strong>Total:</strong>
                                 </span>
-                                <span t-field="o.amount_total_in_currency_signed" style=";color:#4A1031" class="o_bold"/>
+                                <span t-field="o.amount_total_signed" style=";color:#4A1031" class="o_bold"/>
                               </div>
                               <div class="col-3"/>
                               <div class="col-3"/>
