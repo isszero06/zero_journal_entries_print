@@ -1,7 +1,7 @@
 # -*- encoding: UTF-8 -*-
 {
     'name': 'Print Journal Entries (PDF)',
-    'version': '6.1.0',
+    'version': '7.1.0',
      "author": 'Zero Systems',
      "company": 'Zero for Information Systems',
      "website": "https://erpzero.com",
@@ -23,6 +23,5 @@
     'installable': True,
     'auto_install': False,
     "application": True,
-    'pre_init_check_vers': 'pre_init_check_vers',
     'images': ['static/description/journal.png'],
 }
