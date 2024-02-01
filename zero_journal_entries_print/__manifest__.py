@@ -1,7 +1,7 @@
 # -*- encoding: UTF-8 -*-
 {
     'name': 'Print Journal Entries (PDF)',
-    'version': '7.1.0',
+    'version': '7.2.0',
      "author": 'Zero Systems',
      "company": 'Zero for Information Systems',
      "website": "https://erpzero.com",
